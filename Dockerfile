@@ -10,4 +10,4 @@ RUN apt-get update && apt-get install -y -o Dpkg::Options::="--force-confnew" \
 	indiestor-free-gui
 RUN useradd -ms /bin/bash admin
 RUN usermod -a -G indiewheel admin
-COPY startup.sh /root
+COPY startup.sh /root/
