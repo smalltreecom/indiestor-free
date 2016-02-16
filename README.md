@@ -4,7 +4,7 @@ passwd admin
 modify /etc/samba/smb.conf - under [global] section
 interfaces = eth1
 bind interfaces only = yes
-modify /etc/samba2/ports.conf
+modify /etc/apache2/ports.conf
 Listen 192.168.9.203:1001
 Listen 192.168.9.203:1002
 cd /root
